@@ -6,14 +6,14 @@
 
 - Create the key values of the object prototype using *this* and set their values to the parameter values.
 It should look something like this:
-+ *this*.firstName = first;
-+ *this*.gradeLevel = grade;
+*this*.firstName = first;
+*this*.gradeLevel = grade;
 
 - Create an object prototype for each team member and pass individual team members information as the parameters.
 It should look something like this:
 
-+ var teamMember1 = new Student(idNumber, "firstName1", grade, age, "Favorite Jr.DevLeague Project");
-+ var teamMember2 = new Student(idNumber, "firstName", grade, age, "Favorite Jr.DevLeague Project");
+var teamMember1 = new Student(idNumber, "firstName1", grade, age, "Favorite Jr.DevLeague Project");
+var teamMember2 = new Student(idNumber, "firstName", grade, age, "Favorite Jr.DevLeague Project");
 
 ## Your Goal
 Create a function called *printStudentInfo*, set the parameter to _student_, and return the students information and the prototype constructor, from the object prototype, in a single string.
