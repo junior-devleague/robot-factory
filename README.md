@@ -5,14 +5,12 @@
 1. Create an object prototype called *Student* using an object constructor function 
   * Set the parameters as _id_, _first_, _grade_, _age_, and _favProject_.
 
-2. Create the key values of the object prototype using *this* 
-  * Set their values to the parameter values.
-    It should look something like this:
-    +*this*.firstName = first;
-    +*this*.gradeLevel = grade;
+2. Create the key values of the object prototype using *this* and set their values to the parameter values
+    + *this*.firstName = first;
+    + *this*.gradeLevel = grade;
 
 3. Create an object prototype for each team member and pass individual team members information as the parameters.
-   * It should look something like this:
+   *It should look something like this:
     +var teamMember1 = new Student(idNumber, "firstName1", grade, age, "Favorite Jr.DevLeague Project");
     +var teamMember2 = new Student(idNumber, "firstName", grade, age, "Favorite Jr.DevLeague Project");
 
