@@ -9,12 +9,12 @@
     + **this**.firstName = _first_;
 
 3. Create an object prototype for each team member and pass individual team members information as the parameters.
-    + var teamMember1 = new Student(idNumber, "firstName1", grade, age, "Favorite Jr.DevLeague Project");
+    + `var teamMember1 = new Student(idNumber, "firstName1", grade, age, "Favorite Jr.DevLeague Project");`
 
 ## Your Goal
 1. Create a function called **printStudentInfo**
 2. Set the parameter to _student_ 
-3. Return the students information from the object prototype in a single string.
+3. `Return` the students information from the object prototype in a single string.
 
 Call this function multiple times to print out every students information.
 
