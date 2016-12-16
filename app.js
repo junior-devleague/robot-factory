@@ -9,8 +9,9 @@ function Student(id, first, grade, age, favProject){
 var teamMember1 = new Student(1000, "Cody", 4, 10, "PetShop");
 var teamMember2 = new Student(1000, "Jong", 5, 10, "Bears");
 
-function printStudentInfo(student1){
-  return student1;
+function printStudentInfo(student){
+  return student;
 }
 
 console.log(printStudentInfo(teamMember1));
+console.log(printStudentInfo(teamMember2));
