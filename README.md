@@ -1,7 +1,7 @@
 # studentBioTFR
 
 ## Story
-A factory deep, deep in the jungles of Hawaii contains the prototypes for the strongest, fastest, and smartest robots in the entire world! And you, as a Junior DevLeague Developer, are one of the few people that can understand the language of these robots!
+A factory deep, deep in the jungles of Hawaii contains the prototypes for the strongest, fastest, and smartest robots in the entire world! And you, as a Junior DevLeague Developer, are one of the only people that can understand the language of these robots!
 
 ## Your Mission
 Use your knowledge of Javascript to create an object prototype of these robots and use the object constructor function to clone as many awesome robots as possible! 
